@@ -140,3 +140,15 @@ Extra-large devices (1920px or larger)
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
